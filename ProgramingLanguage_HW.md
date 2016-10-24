@@ -1,17 +1,17 @@
 # 1.4 
-    1.Scientific applications<br/>
+    1.Scientific applications
     – Fortran
 
-    2.Business applications<br/>
+    2.Business applications
     – COBOL
 
-    3.Artificial intelligence<br/>
+    3.Artificial intelligence
     – LISP
 
-    4.Systems programming<br/>
+    4.Systems programming
     – C
 
-    5.Web Software<br/>
+    5.Web Software
     -PHP
 
 # 1.18
