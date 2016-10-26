@@ -60,9 +60,9 @@
        A    =  <term> * <factor>
        A    =  <factor> * ( <expr> )
        A    =  <id> * ( <term> )
-       A    =  A * ( <term> * <factor> )
-       A    =  A * ( <factor> * ( <expr> ) )
-       A    =  A * ( <id> * ( <expr> + <term> ) )
+       A    =  B * ( <term> * <factor> )
+       A    =  B * ( <factor> * ( <expr> ) )
+       A    =  B * ( <id> * ( <expr> + <term> ) )
        A    =  B * ( C * ( <term> + <factor> ) )
        A    =  B * ( C * ( <factor> + <id> ) )
        A    =  B * ( C * ( <id> + B ) )
