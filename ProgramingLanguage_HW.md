@@ -42,31 +42,33 @@
 
 # 3.7
   
-      <assign>
-      <id>  =  <expr>
-       A    =  <term>
-       A    =  <term> * <factor>
-       A    =  <factor> * ( <expr> )
-       A    =  <id> * ( <expr> + <term> )
-       A    =  A * ( <term> + <factor> )
-       A    =  A * ( <factor> + <id> )
-       A    =  A * ( <id> + C )
-       A    =  A * ( B + C )
+    <assign>
+    <id>  =  <expr>
+    A    =  <term>
+    A    =  <term> * <factor>
+    A    =  <factor> * ( <expr> )
+    A    =  <id> * ( <expr> + <term> )
+    A    =  A * ( <term> + <factor> )
+    A    =  A * ( <factor> + <id> )
+    A    =  A * ( <id> + C )
+    A    =  A * ( B + C )
     
   
-      <assign>
-      <id>  =  <expr>
-       A    =  <term>
-       A    =  <term> * <factor>
-       A    =  <factor> * ( <expr> )
-       A    =  <id> * ( <term> )
-       A    =  B * ( <term> * <factor> )
-       A    =  B * ( <factor> * ( <expr> ) )
-       A    =  B * ( <id> * ( <expr> + <term> ) )
-       A    =  B * ( C * ( <term> + <factor> ) )
-       A    =  B * ( C * ( <factor> + <id> ) )
-       A    =  B * ( C * ( <id> + B ) )
-       A    =  B * ( C * ( A + B ) )
+  
+  
+    /*<assign>
+    <id> =  <expr>
+    A   =  <term>
+    A   =  <term> * <factor>
+    A   =  <factor> * ( <expr> )
+    A   =  <id> * ( <term> )
+    A   =  B * ( <term> * <factor> )
+    A   =  B * ( <factor> * ( <expr> ) )
+    A   =  B * ( <id> * ( <expr> + <term> ) )
+    A   =  B * ( C * ( <term> + <factor> ) )
+    A   =  B * ( C * ( <factor> + <id> ) )
+    A   =  B * ( C * ( <id> + B ) )
+    A   =  B * ( C * ( A + B ) )*/
    
 # 3.8
 
