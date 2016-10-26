@@ -52,11 +52,8 @@
     A    =  A * ( <factor> + <id> )
     A    =  A * ( <id> + C )
     A    =  A * ( B + C )
-    
-  
-  
-  
-    /*<assign>
+       
+    <assign>
     <id> =  <expr>
     A   =  <term>
     A   =  <term> * <factor>
@@ -68,7 +65,7 @@
     A   =  B * ( C * ( <term> + <factor> ) )
     A   =  B * ( C * ( <factor> + <id> ) )
     A   =  B * ( C * ( <id> + B ) )
-    A   =  B * ( C * ( A + B ) )*/
+    A   =  B * ( C * ( A + B ) )
    
 # 3.8
 
